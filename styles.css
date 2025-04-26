@@ -1,0 +1,74 @@
+body
+{
+  background-image: url(https://t4.ftcdn.net/jpg/02/81/02/63/360_F_281026300_lAO74tXEb7rXPpUyR1antfcfXQSBEtdq.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+}
+
+.PLEASEJUSTNEWLINE
+{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.BUTTOON
+{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.BUTTOON:hover
+{
+  transform: scale(1.05) translateX(20px);]
+}
+
+.BUTTOON:active
+{
+  transform: scale(1) translateX(0);]
+}
+
+.BUTTOON:focus
+{
+  outline: none;
+}
+
+
+#inputnumba 
+{
+  display: block
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#tableContainer
+{
+  display: none;
+  text-align: center;
+  overflow-x: auto; 
+}
+
+#tableContainer table
+{
+  margin: 0 auto;
+  max-width: 90%;
+  border-collapse: collapse;
+  border: 10px double slategrey;
+}
+
+
+th, td
+{
+  background-color: white;
+  border: 1px solid orange;
+  padding: 5px;
+  width: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
